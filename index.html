@@ -53,13 +53,13 @@
 
 <main class="page__main main">
   <section class="main__first-screen first-screen">
-    <h1 class="first-screen__title text-50-bold text-orange">Дополнительное образование</h1>
+    <h1 class="first-screen__title text-50-bold text-center text-orange">Дополнительное образование</h1>
     <div class="first-screen__img">
       <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33px" height="33px">
         <image x="0px" y="0px" width="33px" height="33px" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAQAAAD97QrkAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQflBxYVOzPUgBt3AAADLklEQVRIx5WWXWgUVxiGn/nZ2TXG/sZWWFMo1LYgaqFGKrqEWFFUrD8UL6xe+NM2ViQiolaFFLRXijYs4g+KNkpCoSiJGgr2omkINBdKQzUQbbGtikYqDbq77q7Zfb3IzmR2nYj7fTAX35l5znfe95zDGMKLWRwhwSMMRg+DKDtoK6rJzVrd1APNUUQRhRUKyLAiimi5/tCrGvkOs0Cq4wzb6SRPmjQZjIDMkCbNBcR4fxO2B9jEWdZjAiZ7iDFUsiCLHr5miDB5VIqIcZwNtAN5LOANFrOd+1hkfOutIk6cf5+Vx6aGdproYzJVVPOgUM/SyxCTMAszigwEC22zixR1LMIkRAu/A//xE4f5nHu0Iq/pCD9zN9AldSkmS47Csn06OzKEnKIcHnlJ1/Su3xGbHFly5ErIWd+zOHLc50mpnCblRJL5xejyPgf4lFbqS7sAmMhunGK/AbD4h28Ls37GUkK8TTOrWc4g3cTJjyDS9GMHIEwGCtU69hAnSwv/08RaIqwnwQlAv2imX99R83sdFHK0Vt9pk14R+lKdMuV1MZYZgV1YDNKDw2Gm8Akfcpp+LjODBrZwmmWcZ7eLmMAuxjxjLYTpo4cFTCdGng4OcQiARcSZw2LO0+gi/mLuc1x4SIoUKxgoAOAiS1lDI08YsL3X7MATYJAjRxcVvEOU676Ra3xABe9zzEVM4tQopl5nJbNJcoPbzPeNTOEmKfpY4iJusdE7lcWmJhEvU8k42thGA00ALKGOWhwivPZipjo6ol5Va5quql3fqEX9WqhKXVK7prpdvMlGQoFd3OEoWeo5yVYamMoqptHFFyT4ihDzkIsY7dY2vOWd4iR/YtJKM2HWkaeeA6ic3YlWKKHfdEU71a1uJbVZhlBZCHRJH2mhzmmN3tKv7hVlU06EGEcHHcB7OFQyOLyhhiPKDk9OixvsD5AWDFJAjMskR4ouIsPfPsSdQACYzGQb1TziByyvWpYWjbqqzXpdK3VFx2QNV1Gnal4YgSqFflSVxrgAYWIQLUPQBFFqqODxyMVg08w+Yjx+7i+BPz6mjVv+gs0ZJlIbcNkEh0Uve4vFfgrKAOXlzt6CggAAAABJRU5ErkJggg=="></image>
       </svg>
     </div>
-    <p class="first-screen__text text-white text-center">Без отрыва от работы с выдачей диплома<br>
+    <p class="first-screen__text text-20-bold text-white text-center">Без отрыва от работы с выдачей диплома<br>
       или удостоверения установленного образца</p>
   </section>
   <section class="main__courses courses">
@@ -130,6 +130,10 @@
   <section class="main__events events">
     <div class="events__wrapper wrapper">
       <h2 class="events__title text-40-bold text-center">Наши мероприятия</h2>
+      <div class="events__arrows">
+        <div class="events__arrow events__arrow--left"></div>
+        <div class="events__arrow events__arrow--right"></div>
+      </div>
       <div class="events__content">
         <div class="events__big-card big-card">
           <div class="big-card__header">
@@ -172,12 +176,22 @@
           </li>
         </ul>
       </div>
+      <div class="events__dots">
+        <span class="events__dot events__dot--active"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
+      </div>
       <a href="#" class="events__button button button--black">Все мероприятия</a>
     </div>
   </section>
   <section class="main__news news">
     <div class="news__wrapper wrapper">
       <h2 class="news__title text-40-bold text-center">Новости</h2>
+      <div class="events__arrows">
+        <div class="events__arrow events__arrow--left"></div>
+        <div class="events__arrow events__arrow--right"></div>
+      </div>
       <div class="news__content">
         <div class="news__card">
           <div class="news__img-wrapper">
@@ -192,7 +206,7 @@
         </div>
         <div class="news__card">
           <div class="news__img-wrapper">
-            <img src="img/dodge_challenger_avto_vid_sboku_doroga_nebo_106473_300x120.jpg" alt="Новость" class="news__img">
+            <img src="img/news-img.jpg" alt="Новость" class="news__img">
           </div>
           <span class="news__date text-black">27.05.2021</span>
           <span class="news__text">Новые правила </span>
@@ -203,7 +217,7 @@
         </div>
         <div class="news__card">
           <div class="news__img-wrapper">
-            <img src="img/7_004.jpg" alt="Новость" class="news__img">
+            <img src="img/news-img.jpg" alt="Новость" class="news__img">
           </div>
           <span class="news__date text-black">27.05.2021</span>
           <span class="news__text">Новые правила по аттестации персонала в области НК с 2021 года. Новые правила по аттестации персонала в области НК с 2021 года. Новые правила по аттестации персонала в области НК с 2021 года. Новые правила по аттестации персонала в области НК с 2021 года.</span>
@@ -213,6 +227,12 @@
           </a>
         </div>
 
+      </div>
+      <div class="events__dots">
+        <span class="events__dot events__dot--active"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
       </div>
       <a href="#" class="news__button button">Все новости</a>
     </div>
@@ -253,8 +273,10 @@
             </div>
           </li>
         </ul>
-        <div class="reviews__arrow reviews__arrow--left"></div>
-        <div class="reviews__arrow reviews__arrow--right"></div>
+        <div class="reviews__arrows">
+          <div class="reviews__arrow reviews__arrow--left"></div>
+          <div class="reviews__arrow reviews__arrow--right"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -263,6 +285,12 @@
       <h2 class="partners__title text-40-bold text-center">Наши партнеры</h2>
       <div class="partners__img-wrapper">
         <img src="img/bg-partners.png" alt="Партнеры" class="partners__img">
+      </div>
+      <div class="events__dots">
+        <span class="events__dot events__dot--active"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
+        <span class="events__dot"></span>
       </div>
     </div>
   </section>
